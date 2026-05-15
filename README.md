@@ -1,6 +1,6 @@
-# industrial_ts
+# industrial-ts
 
-`industrial_ts` is a PyTorch toolkit for industrial time-series modeling with a shared API for recurrent, ODE-based, and PatchTST models.
+`industrial-ts` is a PyTorch toolkit for industrial time-series modeling with a shared API for recurrent, ODE-based, and PatchTST models.
 
 The package is designed for industrial datasets where the same model may combine:
 
@@ -27,7 +27,7 @@ All wrappers inherit from `BaseIndustrialTSModel` and expose the same main metho
 
 ## License, Citation, and Data Policy
 
-`industrial_ts` is licensed under the Apache License, Version 2.0.
+`industrial-ts` is licensed under the Apache License, Version 2.0.
 
 Copyright 2026 Rodrigo Petrus Domingues.
 

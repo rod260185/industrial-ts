@@ -1,6 +1,6 @@
-# Contributing to industrial_ts
+# Contributing to industrial-ts
 
-Thank you for your interest in contributing to `industrial_ts`.
+Thank you for your interest in contributing to `industrial-ts`.
 
 ## License of contributions
 

@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-ts"
+version = "0.1.0"
+description = "PyTorch toolkit for industrial time-series modeling and future-time anomaly and series prediction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Rodrigo Petrus Domingues" },
+]
+keywords = [
+    "industrial time series",
+    "anomaly prediction",
+    "ODEJump",
+    "oil and gas",
+    "compressor systems",
+    "PyTorch",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "scipy>=1.10",
+    "torch>=2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/rod260185/industrial_ts"
+Repository = "https://github.com/rod260185/industrial_ts"
+Issues = "https://github.com/rod260185/industrial_ts/issues"
+
+[project.optional-dependencies]
+examples = [
+    "cognite-sdk>=7.0",
+    "ipykernel>=6.0",
+    "jupyterlab>=4.0",
+]
+viz = [
+    "matplotlib>=3.8",
+    "plotly>=5.0",
+    "seaborn>=0.13",
+]
+dev = [
+    "cognite-sdk>=7.0",
+    "ipykernel>=6.0",
+    "jupyterlab>=4.0",
+    "matplotlib>=3.8",
+    "plotly>=5.0",
+    "seaborn>=0.13",
+]
+
+[tool.setuptools]
+package-dir = { "industrial_ts" = "." }
+packages = [
+    "industrial_ts",
+    "industrial_ts.cost_functions",
+    "industrial_ts.dataloader_examples",
+    "industrial_ts.models",
+    "industrial_ts.models.decoders",
+    "industrial_ts.models.encoders",
+    "industrial_ts.models.fusers",
+]

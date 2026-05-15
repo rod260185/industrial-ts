@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the associated article when available."
+title: "industrial_ts: Industrial Time-Series Modeling Toolkit"
+type: software
+authors:
+  - family-names: "Petrus Domingues"
+    given-names: "Rodrigo"
+repository-code: "https://github.com/rod260185/industrial_ts"
+license: "Apache-2.0"
+version: "0.1.0"
+date-released: "2026-05-09"
+abstract: >-
+  industrial_ts is a PyTorch toolkit for industrial time-series modeling with
+  a shared API for recurrent, ODE-based, and PatchTST-style models,
+  including support for imputation, forecasting, probabilistic decoding, and
+  future-time anomaly/event prediction.
+preferred-citation:
+  type: article
+  title: "Safety-Oriented ODEJump Adaptation for Future-Time Anomaly Prediction in Oil and Gas Compressor Systems"
+  authors:
+    - family-names: "Petrus Domingues"
+      given-names: "Rodrigo"
+    - family-names: "Guttemberg"
+      given-names: "Carlos"
+    - family-names: "Villa Verde"
+      given-names: "Fernanda M."
+    - family-names: "Moura Junior"
+      given-names: "Natanael N."
+  status: unpublished
